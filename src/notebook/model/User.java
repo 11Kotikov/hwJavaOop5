@@ -13,7 +13,7 @@ public class User {
         this.phone = phone;
     }
 
-    public User(Long id, String firstName, String lastName, String phone, String separator) {
+    public User(Long id, String firstName, String lastName, String phone) {
         this(firstName, lastName, phone);
         this.id = id;
     }

@@ -1,0 +1,4 @@
+1; Albert; Einstein; 123654789
+2; Marie; Curie; 6541239
+3; Max; Plank; 662607015
+4; Andrey; ZELENOGRAD; 55555555
