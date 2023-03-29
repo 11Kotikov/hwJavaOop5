@@ -47,11 +47,6 @@ public class UserRepository implements GBRepository {
     }
 
     @Override
-    public Optional<User> findById(Long id) {
-        return Optional.empty();
-    }
-
-    @Override
     public Optional<User> update(Long userId, User update) {
         List<User> users = findAll();
         User editUser = users.stream()
